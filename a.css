@@ -1,0 +1,19 @@
+div {
+    border: 1px solid black;
+}
+.parent {
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    margin: 1rem;
+}
+.child1,
+.child2 {
+    width: 500px;
+    height: 500px;
+}
+
+.noblock {
+    display: inline-block;
+    height: 200px;
+}
